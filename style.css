@@ -1,0 +1,175 @@
+:root {
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--Cream);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: calc(100vh-0.1px);
+    margin: 0 1.5em;
+
+
+
+
+}
+
+.container {
+    /* background-color: var(--White); */
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 500px;
+    margin: 5.5em 0;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.card__content {
+    background-color: var(--White);
+    padding: 1.5em;
+    margin-top: -1.5em;
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+
+
+
+.top {
+    color: var(--Dark-grayish-blue);
+}
+
+.top__head {
+    margin: .5em;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: .2em;
+}
+
+.card__head {
+    color: var(--Very-dark-blue);
+    font-weight: 700;
+    margin-bottom: .5em;
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+
+}
+
+
+
+
+p {
+    line-height: 1.8;
+    margin-bottom: .5em;
+    padding-bottom: 2.5em;
+    font-family: inherit;
+}
+
+
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 1.5em;
+    align-items: center;
+
+}
+
+.price {
+    color: var(--Dark-cyan);
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    margin-right: .5em;
+
+
+}
+
+.price2 {
+    color: var(--Dark-grayish-blue);
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+
+
+
+
+}
+
+.btn {
+    border: none;
+    width: 100%;
+    background-color: var(--Dark-cyan);
+    color: var(--White);
+    padding: 1.5em;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+
+}
+
+.btn:hover {
+    background-color: hsl(155, 39%, 17%);
+
+
+}
+
+button img {
+    margin-right: 1em;
+
+}
+
+
+@media(min-width:690px) {
+
+
+    .container {
+        display: flex;
+    }
+
+    article:first-child img {
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .card__content {
+        border-radius: 0 0 10px 0;
+    }
+
+
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
