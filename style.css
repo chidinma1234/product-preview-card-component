@@ -96,7 +96,7 @@ ul {
 
 }
 
- ul li:first-child {
+ .price {
     color: var(--Dark-cyan);
     font-family: 'Fraunces', serif;
     font-size: 2.5rem;
@@ -105,7 +105,7 @@ ul {
 
 }
 
-  ul li:second-child {
+  .price2 {
     color: var(--Dark-grayish-blue);
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
