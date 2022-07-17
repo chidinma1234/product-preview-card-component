@@ -151,7 +151,7 @@ button img {
         display: flex;
     }
 
-    .image__wrap img {
+     img {
         height: 100%;
         max-width: 100%;
     }
